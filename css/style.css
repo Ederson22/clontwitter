@@ -1,0 +1,80 @@
+@import url(arriba.css);
+@import url(abajo.css);
+@import url(registrarse.css);
+@import url(footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.arriba{
+    width: 100%;
+    height: 410px;
+    background: rgb(6, 25, 42);
+} 
+
+.abajo{
+    width: 100%;
+    height: 260px;
+    background-image: url(../img/descarga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.registrase{
+    width: 100%;
+    height: 108px;
+    background: rgb(6, 25, 42);
+}
+
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background: rgb(6, 25, 42);
+    display: flex;
+    display: table;
+
+}
+
+@media screen and (min-Width:800px){
+    .arriba{
+        width: 50%;
+        height: 580px;
+        float: right;
+        display: flex;
+
+    
+    }
+
+    .contenedor{
+        margin-top: 100px;
+    }
+
+    .abajo{
+        width: 50%;
+        height: 580px;
+        float: left;
+        background-size:cover;
+        display: flex;
+        flex-wrap:wrap ;
+
+    }
+
+    .dos{
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .registrase{
+        display: none;
+    }
+    
+
+
+
+}
+
